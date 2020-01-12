@@ -38,7 +38,7 @@ export default new Vuex.Store({
     loadMenu ({
       commit
     }) {
-      axios.get('https://resturant-app-backend.glitch.me/api/menu').then(data => {
+      axios.get('https://restaurant-app-backend.glitch.me/api/menu').then(data => {
         commit('SET_MENU', data.data)
       }).catch(err => {
         console.log(err)

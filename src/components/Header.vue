@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Resturant Menu App</h1>
+    <h1>Restaurant Menu App</h1>
   </div>
 </template>
 

@@ -3,7 +3,7 @@
     <Header></Header>
     <div class="container">
       <CartList />
-      <ResturantMenu />
+      <RestaurantMenu />
     </div>
     <Footer></Footer>
   </div>
@@ -13,7 +13,7 @@
 
 import Header from './Header'
 import Footer from './Footer'
-import ResturantMenu from './ResturantMenu'
+import RestaurantMenu from './RestaurantMenu'
 import CartList from './CartList'
 
 export default {
@@ -21,7 +21,7 @@ export default {
   components: {
     Header,
     Footer,
-    ResturantMenu,
+    RestaurantMenu,
     CartList
   }
 }

@@ -9,7 +9,7 @@
 import { mapState } from 'vuex'
 import ItemCard from './ItemCard'
 export default {
-  name: 'ResturantMenu',
+  name: 'RestaurantMenu',
   components: {
     ItemCard
   },
